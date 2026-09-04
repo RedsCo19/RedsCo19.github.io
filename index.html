@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carlos Sandoval — Software Engineer & Cybersecurity</title>
+<meta name="description" content="Carlos Sandoval — Computer Science student at Colorado School of Mines, Cybersecurity Certificate. Security engineering, automation, and full-stack projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">Carlos Sandoval</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#organizations">Organizations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="eyebrow">Golden, CO &amp; El Paso, TX</p>
+      <h1>Carlos Sandoval</h1>
+      <p class="hero-role">Computer Science Student · Cybersecurity Certificate<br>Colorado School of Mines — expected May 2027</p>
+      <p class="hero-blurb">
+        I build security tooling, automation pipelines, and full-stack projects — most recently as a
+        Security Engineer Intern at Spectrum, where I shipped a compliance-auditing backend and a
+        budget-forecasting dashboard used by company leadership.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="assets/Sandoval_Carlos_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        <a class="btn btn-ghost" href="https://github.com/RedsCo19" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-ghost" href="mailto:carlitoxsandoval8706@gmail.com">Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2 class="section-title"><span class="tag">01</span> About</h2>
+    <div class="section-body">
+      <p>
+        I'm a Computer Science student at Colorado School of Mines pursuing a Cybersecurity Certificate,
+        graduating May 2027 with a 3.98 GPA and Dean's List honors. I'm drawn to problems where security,
+        automation, and real-world messiness intersect — auditing legacy infrastructure at scale, building
+        agents that operate under real constraints, or turning a manual process into something that runs
+        itself correctly.
+      </p>
+      <p>
+        Outside of coursework and internships, I mentor high schoolers in STEM as Outreach Chair for the
+        Society of Hispanic Professional Engineers, and I'm fluent in Spanish.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <h2 class="section-title"><span class="tag">02</span> Experience</h2>
+    <div class="timeline">
+
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Security Engineer Intern</h3>
+            <p class="entry-org">Spectrum — Denver, CO</p>
+          </div>
+          <p class="entry-date">May 2026 – Jul 2026</p>
+        </div>
+        <ul>
+          <li>Built two internal tools spanning security and finance: a Python backend that remotely audits over 300 legacy devices for security-agent compliance, and a budget-forecasting dashboard that replaced a 3-5 business day manual data-consolidation process with one completed in minutes for company leadership.</li>
+          <li>Applied parallelization to the compliance-checking backend, cutting per-device testing runtime from over an hour to minutes, and used MongoDB and SSH to track and test device state at scale.</li>
+          <li>Investigated root causes of device non-compliance using the Linux command line, and presented both projects to engineering and business teams, collaborating across multiple teams beyond the immediate internship group.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Data Structures and Algorithms TA</h3>
+            <p class="entry-org">Colorado School of Mines — Golden, CO</p>
+          </div>
+          <p class="entry-date">Aug 2025 – Present</p>
+        </div>
+        <ul>
+          <li>Assist an average of 30 students per semester in understanding concepts they weren't able to grasp during lecture.</li>
+          <li>Grade analysis projects, provide feedback, and explain areas of improvement.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Computer Science Department Front Desk</h3>
+            <p class="entry-org">Colorado School of Mines — Golden, CO</p>
+          </div>
+          <p class="entry-date">Jan 2025 – Present</p>
+        </div>
+        <ul>
+          <li>Help organize and run campus events in the computer science department.</li>
+          <li>Collaborate across departments to support interdisciplinary programs involving computer science.</li>
+        </ul>
+      </article>
+
+      <article class="entry entry-muted">
+        <div class="entry-head">
+          <div>
+            <h3>Team Member</h3>
+            <p class="entry-org">Raising Cane's Chicken Fingers</p>
+          </div>
+          <p class="entry-date">May 2025 – Jan 2026</p>
+        </div>
+        <ul>
+          <li>Built teamwork, leadership, and customer-service skills in a fast-paced, deadline-driven environment.</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2 class="section-title"><span class="tag">03</span> Projects</h2>
+    <div class="grid">
+
+      <article class="card">
+        <div class="card-head">
+          <h3>Agent Checker</h3>
+          <span class="pill">Spectrum internship</span>
+        </div>
+        <p>A tool that remotely connects to and verifies security-agent compliance across 300+ legacy devices — Python backend with parallelized testing, MongoDB for device-state tracking, and an HTML/CSS/JS dashboard for results.</p>
+        <div class="stack">
+          <span>Python</span><span>MongoDB</span><span>SSH</span><span>HTML/CSS/JS</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <h3>Budget Forecasting Dashboard</h3>
+          <span class="pill">Spectrum internship</span>
+        </div>
+        <p>A forecasting dashboard on AWS Lambda and S3 that models company spend across employees and cloud costs, with rules that account for real-world irregularities like turnover, PTO, and overtime. Cut a 3-5 day manual process to minutes.</p>
+        <div class="stack">
+          <span>Python</span><span>AWS Lambda</span><span>AWS S3</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <h3>AI Bid Analyzer</h3>
+          <span class="pill">In progress — Field Session</span>
+        </div>
+        <p>A 4-person team project with Infinity Technology Systems: a pipeline that ingests messy construction bid packages — PDFs, spreadsheets, drawings — and applies an LLM layer to score bid/no-bid recommendations against real client criteria.</p>
+        <div class="stack">
+          <span>Python</span><span>LLM</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <h3>Autonomous Trading Research Agent</h3>
+          <span class="pill">Personal project</span>
+        </div>
+        <p>An autonomous agent that researches market, economic, and political conditions and places real equity trades on a live brokerage account daily, with risk-management rules for real regulatory constraints and a weekly retrospective loop that reviews and corrects its own reasoning.</p>
+        <div class="stack">
+          <span>Python</span><span>Claude Code</span><span>Robinhood API</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <h3>Automated Short-Form Video Pipeline</h3>
+          <span class="pill">Personal project</span>
+        </div>
+        <p>An automated pipeline that drafts short story content, generates YouTube Shorts and TikTok videos, and schedules publishing via the YouTube API — with a rolling content buffer and an analytics feedback loop that informs future content.</p>
+        <div class="stack">
+          <span>Python</span><span>Claude Code</span><span>ffmpeg</span><span>YouTube API</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <h3>De-Bug</h3>
+          <span class="pill">1st Place — CSM Hackathon, Game Dev</span>
+        </div>
+        <p>A 3D platforming/puzzle game built from scratch in C++ on a 4-person team, with a custom data-driven level loader and an in-game terminal where players solve programming puzzles to progress.</p>
+        <div class="stack">
+          <span>C++</span><span>raylib</span><span>CMake</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <h3>Clue</h3>
+          <span class="pill">CSCI 306 Software Engineering</span>
+        </div>
+        <p>A full Java implementation of the board game Clue with a partner — Swing GUI, a computer AI opponent, file-driven board configuration, and a JUnit suite covering game logic, AI behavior, and error handling.</p>
+        <div class="stack">
+          <span>Java</span><span>Swing</span><span>JUnit</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <h2 class="section-title"><span class="tag">04</span> Skills</h2>
+    <div class="skills-grid">
+      <div class="skills-group">
+        <h3>Languages</h3>
+        <div class="stack">
+          <span>Python</span><span>Java</span><span>C++</span><span>C</span><span>SQL</span><span>JavaScript</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Web &amp; Data</h3>
+        <div class="stack">
+          <span>HTML</span><span>CSS</span><span>MongoDB</span><span>AWS Lambda &amp; S3</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Security &amp; Systems</h3>
+        <div class="stack">
+          <span>Linux Command Line</span><span>SSH</span><span>Networking</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Tools</h3>
+        <div class="stack">
+          <span>GitHub</span><span>JUnit</span><span>LaTeX</span><span>Claude Code</span><span>Microsoft Office</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Professional</h3>
+        <div class="stack">
+          <span>Leadership</span><span>Time Management</span><span>Adaptability</span><span>Technical Writing</span><span>Fluent Spanish</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="organizations">
+    <h2 class="section-title"><span class="tag">05</span> Organizations</h2>
+    <div class="timeline">
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Outreach Chair</h3>
+            <p class="entry-org">Society of Hispanic Professional Engineers</p>
+          </div>
+          <p class="entry-date">Aug 2026 – Present · Member since Aug 2024</p>
+        </div>
+        <ul>
+          <li>Co-lead the outreach program and design curriculum for high school students to build interest in STEM.</li>
+          <li>Tutor and mentor students in the junior chapter at two local high schools.</li>
+          <li>Coordinate events and activities introducing younger students to STEM.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <h2 class="section-title"><span class="tag">06</span> Education</h2>
+    <div class="timeline">
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Bachelor of Science, Computer Science</h3>
+            <p class="entry-org">Colorado School of Mines — Golden, CO · Cybersecurity Certificate</p>
+          </div>
+          <p class="entry-date">Expected May 2027</p>
+        </div>
+        <p class="entry-meta">GPA 3.98 · Dean's List</p>
+        <p class="entry-meta">Relevant coursework: Data Structures &amp; Algorithms, Algorithms, Software Engineering, Database Management, Programming Languages, Introduction to Cryptography, Systems Programming, Foundations of Programming</p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="contact">
+  <div class="footer-inner">
+    <h2>Let's talk.</h2>
+    <p>Open to software engineering and cybersecurity roles, internships, and interesting collaborations.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="mailto:carlitoxsandoval8706@gmail.com">carlitoxsandoval8706@gmail.com</a>
+      <a class="btn btn-ghost" href="https://github.com/RedsCo19" target="_blank" rel="noopener">github.com/RedsCo19</a>
+    </div>
+    <p class="footer-meta">Golden, CO &amp; El Paso, TX</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
